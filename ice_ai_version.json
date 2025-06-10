@@ -1,5 +1,6 @@
 {
   "version": "1.0.1",
-  "release_notes": "Voice upgraded and system stable."
+  "release_notes": "Testing update: modified greeting in command_handler."
 }
+
 
