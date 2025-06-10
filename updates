@@ -1,1 +1,16 @@
+from modules.voice_output import speak
+import sys
+
+def handle_command(command):
+    if command is None:
+        speak("I didn't catch that.")
+        return
+
+    if "hello" in command:
+        speak("Hey again, Kaleb.")
+    elif "exit" in command or "goodbye" in command:
+        speak("Shutting down.")
+        sys.exit()
+    else:
+        speak("That command isn't familiar yet.")
 
